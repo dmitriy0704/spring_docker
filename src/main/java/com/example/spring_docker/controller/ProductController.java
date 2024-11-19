@@ -23,5 +23,4 @@ public class ProductController {
     public List<Product> getAll(){
         return repository.findAll();
     }
-
 }

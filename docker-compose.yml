@@ -14,12 +14,12 @@ services:
     volumes:
       - pg_demo:/var/lib/postgresql/data
     ports:
-      - "127.0.0.1:5432:5432"
+      - "127.0.0.1:5433:5432"
   app:
     restart: always
     build: .
     ports:
-        - "8080:8080"
+        - "8189:8189"
     depends_on:
       - demo_db
     environment:
