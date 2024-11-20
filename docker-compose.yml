@@ -16,7 +16,7 @@ services:
     ports:
       - "127.0.0.1:5433:5432"
 #  app:
-#    restart: always
+#    restart: no
 #    build: .
 #    ports:
 #        - "8189:8189"

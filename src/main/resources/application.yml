@@ -10,7 +10,7 @@
 spring:
   sql:
     init:
-      mode: never
+      mode: embedded
   docker:
     compose:
       enabled: true

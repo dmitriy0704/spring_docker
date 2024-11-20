@@ -1,7 +1,7 @@
-package com.example.spring_docker.controller;
+package com.example.spring_docker.endpoints;
 
-import com.example.spring_docker.entity.UserEntity;
-import com.example.spring_docker.repo.UserRepo;
+import com.example.spring_docker.endpoints.entity.UserEntity;
+import com.example.spring_docker.endpoints.repo.UserRepo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;

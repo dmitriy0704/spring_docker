@@ -1,4 +1,4 @@
-package com.example.spring_docker.controller;
+package com.example.spring_docker.endpoints;
 
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations;
