@@ -10,10 +10,11 @@
 spring:
   sql:
     init:
-      mode: always
+      mode: never
   docker:
     compose:
       enabled: true
+      lifecycle-management: start_and_stop
 
 server:
   port: 8189
